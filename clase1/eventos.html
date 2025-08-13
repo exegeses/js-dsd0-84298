@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controladores de eventos</title>
+    <style>
+        body{
+            background-color: hsl(30, 60%, 60%);
+        }
+    </style>
+</head>
+<body>
+    <h1>Controladores de eventos</h1>
+
+    <button onclick="document.body.style.backgroundColor='hsl(30, 60%, 60%)'">naranja</button>
+    <button onclick="document.body.style.backgroundColor='hsl(120, 60%, 60%)'">verde</button>
+    <button onclick="document.body.style.backgroundColor='hsl(180, 60%, 60%)'">celeste</button>
+
+    <p>
+        La palabra reservada 'document' Hace referencia a todo el documento html
+        <br>
+        Técnicamente hace referencia DOM (document object model)
+    </p>
+
+    <img src="imgs/warning.png" onclick="alert('hiciste click!')" alt="warning icon">
+
+</body>
+</html>
