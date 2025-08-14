@@ -15,6 +15,7 @@ body{
 }
 h1, h2{
     font-weight: 300;
+    margin-bottom: 40px;
 }
 #cajaTexto{
     background-color: hsl(340, 100%, 8%);
@@ -22,4 +23,27 @@ h1, h2{
     font-size: 24px;
     padding: 8px 20px;
     border-radius: 12px;
+}
+a{text-decoration: none;}
+
+#botones{
+    margin-bottom: 32px;
+}
+    #botones a{
+        background-color: #fff;
+        padding: 12px 24px;
+        border-radius: 8px;
+        font-weight: 500px;
+        color: hsl(340, 100%, 8%);
+    }
+    #botones a:hover{
+        box-shadow: 0px 0px 8px #fff;
+    }
+#caja{
+    width: 215px;
+    height: 204px;
+    background-color: #e4e4e4;
+    border-radius: 16px;
+    padding: 24px;
+    transition: 500ms;
 }
