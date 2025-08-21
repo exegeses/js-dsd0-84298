@@ -16,12 +16,30 @@ saludar('Rick')
 saludar('Morty')
 saludar('Summer')
 
+/*
 function duplicarNumero( numero )
 {
     let resultado = numero * 2
     console.log('resultado:', resultado)
-}
+}*/
+/*// Gonza
+function duplicarNumero(numero) {
+    if ( isNaN(numero) ) {
+        console.log("Debe ser un número")
+    } else {
+        let resultado = numero * 2
+        console.log("Resultado:", resultado)
+    }
+}*/
+// Iri
+function verificarParametro(valor) {
+    if ( isNaN(valor) ) {
+      console.log("Debe ser un número");
+    } else {
+      console.log("Resultado: " + (valor * 2));
+    }
+  }
 
-duplicarNumero( 10 )
-duplicarNumero( 0 )
-duplicarNumero( 'manzana' )
+  verificarParametro( 10 )
+verificarParametro( 0 )
+verificarParametro( 'manzana' )

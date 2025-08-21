@@ -47,3 +47,12 @@ a{text-decoration: none;}
     padding: 24px;
     transition: 500ms;
 }
+
+#parrafos{
+    background-color: hsl(340, 100%, 80%);
+}
+    #parrafos p{
+        margin: 8px;
+        padding: 16px;
+        border-bottom: 2px solid white;
+    }
