@@ -56,3 +56,22 @@ a{text-decoration: none;}
         padding: 16px;
         border-bottom: 2px solid white;
     }
+
+#rotador{
+    background-color: hsl(340, 100%, 8%);
+    color: hsl(340, 100%, 75%);
+    font-size: 32px;
+    padding: 8px 20px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}    
+    #rotador img{
+        filter: invert();
+        cursor: pointer;
+        transition: .5s;
+    }
+    #rotador img:hover{
+        transform: scale(1.3);
+    }
